@@ -24,6 +24,13 @@ declare namespace Supercluster {
          * @default 16
          */
         maxZoom?: number | undefined;
+        
+        /**
+         * Minimum number of points to form a cluster.
+         *
+         * @default 2
+         */
+        minPoints?: number | undefined;
 
         /**
          * Cluster radius, in pixels.
